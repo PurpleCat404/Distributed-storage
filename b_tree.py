@@ -170,3 +170,16 @@ class BTree:
             return None
         return self.search(node.children[index], key)
 
+    def print_tree(self, cur_values, node=None, level=0):
+        if node is None:
+            node = self.root
+
+        for i in range(len(node.keys)):
+            if not node.is_leaf:
+                self.print_tree(cur_values, node.children[i], level + 1)
+
+            cur_values.append(node.keys[i])
+
+        if not node.is_leaf:
+            self.print_tree(cur_values, node.children[-1], level + 1)
+
