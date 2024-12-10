@@ -9,7 +9,7 @@ def main():
     print("  delete <key> <value>    - Delete a key-value pair")
     print("  exit                    - Exit the program")
 
-    nodes = NodesHelper()
+    nodes_helper = NodesHelper()
 
     while True:
         try:
@@ -25,14 +25,14 @@ def main():
                     print("Usage: add <key> <value>")
                     continue
                 key, value = parts[1], parts[2]
-                nodes.add_element(key, value)
+                nodes_helper.add_element(key, value)
 
             elif cmd == "get":
                 if len(parts) < 2:
                     print("Usage: get <key>")
                     continue
                 key = parts[1]
-                value = nodes.get_value(key)
+                value = nodes_helper.get_value(key)
                 if value is not None:
                     print(f"Value for '{key}': {value}")
                 else:
@@ -43,7 +43,17 @@ def main():
                     print("Usage: delete <key> <value>")
                     continue
                 key, value = parts[1], parts[2]
-                nodes.delete_element(key, value)
+                nodes_helper.delete_element(key, value)
+
+            elif cmd == "show":
+                keys_values = set()
+                for kv in nodes_helper.nodes.values():
+                    for key, value in kv.get_all_values():
+                        keys_values.add((key, value))
+
+                print(f"Available key_values:")
+                for key, value in keys_values:
+                    print(f"'{key}': {value}")
 
             elif cmd == "exit":
                 print("Goodbye!")
