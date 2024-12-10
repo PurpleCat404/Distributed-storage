@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     nodes = [f"192.168.1.{i}" for i in range(1, 6)]
-    node_helper = NodesHelper(nodes)
+    nodes_helper = NodesHelper(nodes)
     quantity_keys_in_node = {node: 0 for node in nodes}
     num_keys = 10_000
 
     for i in range(1, num_keys + 1):
         smth_key = f"key-{i}"
-        node = node_helper.find_node_for_key(smth_key).node_key
-        quantity_keys_in_node[node] += 1
+        node = nodes_helper.find_node_by_key(smth_key)
+        quantity_keys_in_node[node.node_key] += 1
 
     for node, count in quantity_keys_in_node.items():
         print(f"Node {node} has {count} keys")

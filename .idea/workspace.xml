@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b914e98b-cb53-44bb-bc10-5bf6d24116a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodes_helper_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed_storage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodes_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodes_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kv_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/kv_storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodes_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodes_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodes_helper_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodes_helper_testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,8 +49,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.main.executor": "Run",
     "Python.nodes_distribution.executor": "Run",
+    "Python.nodes_helper (1).executor": "Run",
+    "Python.nodes_helper.executor": "Run",
     "Python.nodes_helper_testing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -61,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.nodes_helper">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,9 +275,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.nodes_helper_testing" />
         <item itemvalue="Python.nodes_helper" />
+        <item itemvalue="Python.nodes_helper_testing" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -302,8 +306,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Distributed_storage$distributed_storage.coverage" NAME="distributed_storage Coverage Results" MODIFIED="1731273712506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Distributed_storage$main.coverage" NAME="main Coverage Results" MODIFIED="1732640164232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$main.coverage" NAME="main Coverage Results" MODIFIED="1733835039733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper__1_.coverage" NAME="nodes_helper (1) Coverage Results" MODIFIED="1733837008293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$nodes_distribution.coverage" NAME="nodes_distribution Coverage Results" MODIFIED="1732636960360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper_testing.coverage" NAME="nodes_helper_testing Coverage Results" MODIFIED="1732639004569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper_testing.coverage" NAME="nodes_helper_testing Coverage Results" MODIFIED="1733836481331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper.coverage" NAME="nodes_helper Coverage Results" MODIFIED="1733837454899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

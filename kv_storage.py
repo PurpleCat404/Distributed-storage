@@ -2,7 +2,8 @@ from b_tree import BTree
 
 
 class KVStorage:
-    def __init__(self):
+    def __init__(self, node_key):
+        self.node_key = node_key
         self.min_pow = 8
         self.tree = BTree(8)
 
