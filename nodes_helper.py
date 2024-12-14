@@ -55,7 +55,6 @@ class NodesHelper:
             node_key = self.virtual_to_real[vn]
             if node_key not in unique_node_keys:
                 unique_node_keys.add(node_key)
-                # ВАЖНО: добавляем node_key, а не объект узла!
                 unique_nodes.append(node_key)
             i += 1
 
@@ -65,21 +64,17 @@ class NodesHelper:
         replica_nodes = self.find_replica_nodes(key, self.replication_factor)
         for node_key in replica_nodes:
             url = self.nodes[node_key]["url"]
-            requests.post(f"{url}/add", json={"key": key, "value": value})
+            r = requests.post(f"{url}/add", json={"key": key, "value": value})
+            r.raise_for_status()
 
     def delete_element(self, key, value):
         replica_nodes = self.find_replica_nodes(key, self.replication_factor)
         for node_key in replica_nodes:
             url = self.nodes[node_key]["url"]
-            requests.post(f"{url}/delete", json={"key": key, "value": value})
+            r = requests.post(f"{url}/delete", json={"key": key, "value": value})
+            r.raise_for_status()
 
     def get_value(self, key):
-        primary_node = self.find_node_by_key(key)
-        url = self.nodes[primary_node]["url"]
-        value = requests.get(f"{url}/get").json()
-        if value is not None:
-            return value
-
         replica_nodes = self.find_replica_nodes(key, self.replication_factor)
         for node_key in replica_nodes:
             url = self.nodes[node_key]["url"]

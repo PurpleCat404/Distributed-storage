@@ -1,7 +1,6 @@
 import argparse
 import subprocess
 import time
-
 from flask import Flask, request, jsonify
 from nodes_helper import NodesHelper
 
@@ -27,8 +26,11 @@ def add_element():
     data = request.get_json()
     key = data["key"]
     value = data["value"]
-    helper.add_element(key, value)
-    return jsonify({"status": "ok"}), 200
+    try:
+        helper.add_element(key, value)
+        return jsonify({"status": "ok"}), 200
+    except:
+        return jsonify({"error": f"Key {key} is already exist"})
 
 @app.route('/get', methods=['GET'])
 def get_value():
@@ -42,33 +44,7 @@ def delete_element():
     key = data["key"]
     value = data["value"]
     helper.delete_element(key, value)
-
     return jsonify({"status": "ok"}), 200
-
-# @app.route('/add_node', methods=['POST'])
-# def add_node():
-#     data = request.get_json()
-#     node_key = data["node_key"]
-#     node_url = data["node_url"]
-#     helper.add_node(node_key, node_url)
-#
-#     next_port = args.base_port + len(nodes_mapping.keys()) + 1
-#     p = subprocess.Popen(["python", "node_server.py", "--node-key", node_key, "--port", str(next_port)])
-#     processes[node_key] = p
-#
-#     return jsonify({"status": "node_added"}), 200
-
-# @app.route('/remove_node', methods=['POST'])
-# def remove_node():
-#     data = request.get_json()
-#     node_key = data["node_key"]
-#     helper.remove_node(node_key)
-#
-#     p = processes[node_key]
-#     p.terminate()
-#     del processes[node_key]
-#     helper.remove_node(node_key)
-#     return jsonify({"status": "node_removed"}), 200
 
 @app.route('/all_values', methods=['GET'])
 def all_values():
@@ -78,7 +54,7 @@ def all_values():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Main server for distributed storage")
-    parser.add_argument('--num-nodes', type=int, default=10, help='Number of nodes to start')
+    parser.add_argument('--num-nodes', type=int, default=3, help='Number of nodes to start')
     parser.add_argument('--base-port', type=int, default=5000, help='Base port for starting nodes')
     parser.add_argument('--replication-factor', type=int, default=1, help='Replication factor')
     parser.add_argument('--main-port', type=int, default=8000, help='Port for main server')

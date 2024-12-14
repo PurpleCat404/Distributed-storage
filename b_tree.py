@@ -182,4 +182,3 @@ class BTree:
 
         if not node.is_leaf:
             self.print_tree(cur_values, node.children[-1], level + 1)
-
