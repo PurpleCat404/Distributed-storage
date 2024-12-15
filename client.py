@@ -18,13 +18,6 @@ def main():
     delete_parser.add_argument('key', help='Ключ')
     delete_parser.add_argument('value', help='Значение')
 
-    # add_node_parser = subparsers.add_parser('add_node', help='Добавить узел')
-    # add_node_parser.add_argument('node_key', help='Имя узла')
-    # add_node_parser.add_argument('node_url', help='URL узла (например, http://localhost:5001)')
-    #
-    # remove_node_parser = subparsers.add_parser('remove_node', help='Удалить узел')
-    # remove_node_parser.add_argument('node_key', help='Имя узла')
-
     all_values_parser = subparsers.add_parser('all_values', help='Посмотреть все значения')
 
     # Опция для указания базового URL главного сервера
