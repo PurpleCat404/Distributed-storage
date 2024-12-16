@@ -109,7 +109,8 @@ class BTree:
             index += 1
 
         if node.is_leaf:
-            if index < len(node.keys) and node.keys[index][0] == key and node.keys[index][1] == value:
+            if (index < len(node.keys) and node.keys[index][0] == key
+                    and node.keys[index][1] == value):
                 node.keys.pop(index)
             return
 
@@ -152,7 +153,8 @@ class BTree:
     def fill(self, node, index):
         if index != 0 and len(node.children[index - 1].keys) >= self.min_pow:
             borrow_from_prev(node, index)
-        elif index != len(node.keys) and len(node.children[index + 1].keys) >= self.min_pow:
+        elif (index != len(node.keys)
+              and len(node.children[index + 1].keys) >= self.min_pow):
             borrow_from_next(node, index)
         else:
             if index != len(node.keys):

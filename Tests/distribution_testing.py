@@ -19,7 +19,6 @@ if __name__ == '__main__':
     for node, count in quantity_keys_in_node.items():
         print(f"Node {node} has {count} keys")
 
-    #тут рисуется красиво
     plt.bar(quantity_keys_in_node.keys(), quantity_keys_in_node.values())
     plt.xlabel("Node")
     plt.ylabel("Number of Keys")

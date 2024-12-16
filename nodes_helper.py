@@ -2,11 +2,12 @@ import hashlib
 from bisect import bisect_left
 import requests
 
-
 VIRTUAL_NODES_COUNT = 10
+
 
 def hash_function(key):
     return int(hashlib.sha256(key.encode()).hexdigest(), 16) % (2 ** 32)
+
 
 class NodesHelper:
     def __init__(self, nodes_mapping, replication_factor=3):

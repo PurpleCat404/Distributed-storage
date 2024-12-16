@@ -2,6 +2,7 @@ import os
 import json
 from b_tree import BTree
 
+
 class KVStorage:
     def __init__(self, node_key):
         self.node_key = node_key
