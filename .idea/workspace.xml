@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b914e98b-cb53-44bb-bc10-5bf6d24116a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/test_b_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_integration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_kvstorage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_nodes_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/b_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/kv_storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/node_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodes_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodes_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodes_helper_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/distribution_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_node.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/distribution_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/distribution_testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,57 +45,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python tests.Python tests for test_b_tree.TestBTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.Test_BTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.Test_BTree.test_empty_tree_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_borrow_from_next.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_borrow_from_prev.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_delete_internal_key.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_delete_leaf_key.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_empty_tree_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_get_predecessor.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_get_successor.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_insert_causes_split.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_insert_multiple_elements_no_split.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_insert_single_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_merge_nodes.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_b_tree.test_search_non_existent.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_integration.TestIntegrationMainServer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_integration.test_integration_add_get.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_kvstorage.TestKVStorage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_kvstorage.test_add_and_get.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_kvstorage.test_add_existing_key.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_kvstorage.test_backup_on_disk.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_kvstorage.test_delete_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_kvstorage.test_load_from_backup.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.TestNodesHelper.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.TestNodesHelper.test_massive_add_get_delete.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.test_add_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.test_delete_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.test_find_node_by_key.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.test_get_all_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_nodes_helper.test_get_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python.distribution_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.node_server.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.nodes_distribution.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nodes_helper (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.nodes_helper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nodes_helper_testing.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Python tests for test_b_tree.TestBTree.executor": "Run",
+    "Python tests.Python tests for test_b_tree.TestBTree.test_get_successor.executor": "Run",
+    "Python tests.Python tests for test_b_tree.Test_BTree.executor": "Run",
+    "Python tests.Python tests for test_b_tree.Test_BTree.test_empty_tree_search.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_borrow_from_next.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_borrow_from_prev.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_delete_internal_key.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_delete_leaf_key.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_empty_tree_search.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_get_predecessor.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_get_successor.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_insert_causes_split.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_insert_multiple_elements_no_split.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_insert_single_element.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_merge_nodes.executor": "Run",
+    "Python tests.Python tests for test_b_tree.test_search_non_existent.executor": "Run",
+    "Python tests.Python tests for test_integration.TestIntegrationMainServer.executor": "Run",
+    "Python tests.Python tests for test_integration.test_integration_add_get.executor": "Run",
+    "Python tests.Python tests for test_kvstorage.TestKVStorage.executor": "Run",
+    "Python tests.Python tests for test_kvstorage.test_add_and_get.executor": "Run",
+    "Python tests.Python tests for test_kvstorage.test_add_existing_key.executor": "Run",
+    "Python tests.Python tests for test_kvstorage.test_backup_on_disk.executor": "Run",
+    "Python tests.Python tests for test_kvstorage.test_delete_element.executor": "Run",
+    "Python tests.Python tests for test_kvstorage.test_load_from_backup.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.TestNodesHelper.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.TestNodesHelper.test_massive_add_get_delete.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.test_add_element.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.test_delete_element.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.test_find_node_by_key.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.test_get_all_data.executor": "Run",
+    "Python tests.Python tests for test_nodes_helper.test_get_value.executor": "Run",
+    "Python.distribution_testing.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_server.executor": "Run",
+    "Python.node_server.executor": "Debug",
+    "Python.nodes_distribution.executor": "Run",
+    "Python.nodes_helper (1).executor": "Run",
+    "Python.nodes_helper.executor": "Run",
+    "Python.nodes_helper_testing.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bedny\Documents\GitHub\Distributed-storage" />
@@ -117,7 +106,7 @@
       <recent name="C:\Users\bedny\Documents\GitHub\Distributed-storage\backups" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_integration.TestIntegrationMainServer">
+  <component name="RunManager" selected="Python.distribution_testing">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +157,29 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="distribution_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-storage" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/distribution_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,6 +264,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_b_tree.TestBTree.test_get_successor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-storage" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_b_tree.TestBTree.test_get_successor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_integration.TestIntegrationMainServer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Distributed-storage" />
       <option name="ENV_FILES" value="" />
@@ -284,38 +312,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_kvstorage.TestKVStorage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Distributed-storage" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_kvstorage.TestKVStorage&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_nodes_helper.TestNodesHelper" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Distributed-storage" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_nodes_helper.TestNodesHelper&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.distribution_testing" />
         <item itemvalue="Python tests.Python tests for test_integration.TestIntegrationMainServer" />
-        <item itemvalue="Python tests.Python tests for test_integration.test_integration_add_get" />
-        <item itemvalue="Python tests.Python tests for test_nodes_helper.TestNodesHelper" />
-        <item itemvalue="Python tests.Python tests for test_kvstorage.TestKVStorage" />
         <item itemvalue="Python tests.Python tests for test_b_tree.TestBTree" />
+        <item itemvalue="Python tests.Python tests for test_b_tree.TestBTree.test_get_successor" />
+        <item itemvalue="Python tests.Python tests for test_integration.test_integration_add_get" />
       </list>
     </recent_temporary>
   </component>
@@ -370,6 +366,7 @@
       <workItem from="1734287727154" duration="671000" />
       <workItem from="1734349022437" duration="7488000" />
       <workItem from="1734356611539" duration="1360000" />
+      <workItem from="1735079190097" duration="2071000" />
     </task>
     <servers />
   </component>
@@ -395,15 +392,15 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Distributed_storage$distributed_storage.coverage" NAME="distributed_storage Coverage Results" MODIFIED="1731273712506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$client.coverage" NAME="client Coverage Results" MODIFIED="1733853024149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Distributed_storage$main_server.coverage" NAME="main_server Coverage Results" MODIFIED="1734204691634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$main.coverage" NAME="main Coverage Results" MODIFIED="1734202486394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$main_server.coverage" NAME="main_server Coverage Results" MODIFIED="1734204691634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$nodes_distribution.coverage" NAME="nodes_distribution Coverage Results" MODIFIED="1732636960360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$run_nodes.coverage" NAME="run_nodes Coverage Results" MODIFIED="1733853589337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper__1_.coverage" NAME="nodes_helper (1) Coverage Results" MODIFIED="1733837008293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Distributed_storage$distribution_testing.coverage" NAME="distribution_testing Coverage Results" MODIFIED="1734352926385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$distribution_testing.coverage" NAME="distribution_testing Coverage Results" MODIFIED="1735081253864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper_testing.coverage" NAME="nodes_helper_testing Coverage Results" MODIFIED="1734201098465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Distributed_storage$node_server.coverage" NAME="node_server Coverage Results" MODIFIED="1734200863757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Distributed_storage$.coverage" NAME=" Coverage Results" MODIFIED="1734355064600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/Distributed_storage$.coverage" NAME=" Coverage Results" MODIFIED="1735079351151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/Distributed_storage$nodes_helper.coverage" NAME="nodes_helper Coverage Results" MODIFIED="1734198367748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -71,7 +71,7 @@
 
 **Пример запуска**:
 ```bash
-python main_server.py --num-nodes 2 --replication-factor 1 --main-port 8000 --base-port 5000
+python main_server.py --num-nodes 3 --replication-factor 1 --main-port 8000 --base-port 5000
 ```
 
 **Опции:**
